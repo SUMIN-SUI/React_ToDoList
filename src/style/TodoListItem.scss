@@ -1,0 +1,32 @@
+.list-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 14px;
+
+  .checkList {
+    display: flex;
+
+    input {
+      margin-right: 8px;
+    }
+
+    div {
+      font-size: 16px;
+    }
+
+    div.checked {
+      text-decoration: line-through;
+      color: #ccc;
+    }
+  }
+
+  button {
+    font-size: 18px;
+    color: #ccc;
+    transition: all ease-in 100ms;
+
+    &:hover {
+      color: darkgray;
+    }
+  }
+}
